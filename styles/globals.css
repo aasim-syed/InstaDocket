@@ -1,7 +1,10 @@
 html,
 body {
   color: #ffffff;
-  background: #225fef;
+  background: url("../public//mesh-773.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
