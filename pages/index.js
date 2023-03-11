@@ -177,7 +177,7 @@ const Home = () => {
             <Typewriter
               onInit={(typewriter) => {
                 typewriter
-                  .typeString("InstaDocket🚀<br>Co-piolet for Lawyers⚖️")
+                  .typeString("InstaDocket🚀<br>Co-pilot Taylored for Lawyers⚖️")
                   .callFunction(() => {
                     console.log("String typed out!");
                   })
