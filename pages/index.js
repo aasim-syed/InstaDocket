@@ -282,7 +282,7 @@ const Home = () => {
               <audio src={blobURL} controls="controls" />
             </div>
             <div className={styles.loading}>
-              {loading ? <p>Loading... please wait.</p> : <p>{transcript}</p>}
+              {loading ? <p>Cant Load as API has been exhausted...</p> : <p>{transcript}</p>}
             </div>
             <div className={styles.generatebuttonroot}>
               <button
